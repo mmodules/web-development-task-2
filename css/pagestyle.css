@@ -39,10 +39,9 @@
 
 .btn-primary {
     background-color: #161414 !important;
-    border: none !important;
+    border: 2px solid #fff !important;
     font-family: "Outfit", sans-serif !important;
     font-weight: 600 !important;
-    stroke: #fff !important;
     border-radius: 20px !important;
 }
 
