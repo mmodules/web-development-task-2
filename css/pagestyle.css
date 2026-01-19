@@ -25,6 +25,8 @@
 .card {
     background-color: #211f1f !important;
     border: none !important;
+    border-radius: 20px !important;
+    overflow: hidden !important;
 }
 
 .card-title {
