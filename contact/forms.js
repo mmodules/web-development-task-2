@@ -36,7 +36,7 @@ function validate() {
 
     let message = document.getElementById("message").value;
     if (message == "") {
-        errors += "<li>Please do not leave the Message field empty</li>";
+        errors += "<li>Please enter a Message</li>";
     }
 
     if (errors != "") {
