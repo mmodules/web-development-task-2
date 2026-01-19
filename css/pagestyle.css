@@ -22,10 +22,6 @@
     background-color: #211f1f !important;
 }
 
-.navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
-}
-
 .card {
     background-color: #211f1f !important;
     border: none !important;
@@ -46,6 +42,12 @@
     color: white !important;
 }
 
+label {
+    color: white !important;
+    font-family: "Outfit", sans-serif !important;
+    font-weight: 300 !important;
+}
+
 p {
     color: white !important;
     font-family: "Outfit", sans-serif !important;
@@ -63,3 +65,68 @@ h1 {
     text-align: center !important;
 }
 
+h3 {
+    color: white !important;
+    font-family: "Outfit", sans-serif !important;
+    font-weight: 600 !important;
+}
+
+input {
+    background-color: #211f1f !important;
+    border: 2px solid #fff !important;
+    border-radius: 10px !important;
+    color: white !important;
+    font-family: "Outfit", sans-serif !important;
+    font-weight: 300 !important;
+}
+
+textarea {
+    background-color: #211f1f !important;
+    border: 2px solid #fff !important;
+    border-radius: 10px !important;
+    color: white !important;
+    font-family: "Outfit", sans-serif !important;
+    font-weight: 300 !important;
+}
+
+ul {
+    color: #ef6c00 !important;
+    font-family: "Outfit", sans-serif !important;
+    font-weight: 300 !important;
+}
+
+#errorDiv {
+    border: 2px solid #ef6c00 !important;
+    border-radius: 10px !important;
+    color: #ef6c00 !important;
+    font-family: "Outfit", sans-serif !important;
+    font-weight: 300 !important;
+}
+
+::placeholder {
+    color: #787878 !important;
+}
+
+/* these below were ai generated */
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+.custom-radio .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: #ef6c00 !important;
+    border-color: #ef6c00 !important;
+}
+
+.custom-radio .custom-control-input:focus ~ .custom-control-label::before {
+    border-color: #ef6c00 !important;
+    box-shadow: 0 0 0 0.2rem rgba(255, 152, 0, 0.25) !important;
+}
+
+.form-control:focus,
+input:focus,
+textarea:focus {
+    border-color: #ef6c00 !important;
+    box-shadow: 0 0 0 0.2rem rgba(239,108,0,0.25) !important;
+    outline: none !important;
+}
