@@ -13,7 +13,7 @@ const questions = [
     },
     { // question 3
         question: "What does 'PLL' stand for in cubing?",
-        options: ["Permutation of the Last Layer", "Positioning of the Last Layer", "Preparation of the Last Layer", "Placement of the Last Layer"],
+        options: ["Permute Last Layer", "Positioning Last Line", "Prepare Largest Lane", "Play Last Level"],
         answer: 0
     },
     { // question 4
@@ -22,8 +22,8 @@ const questions = [
         answer: 3
     },
     {  // question 5
-        question: "What is a common term for a cube that has been solved in under 10 seconds?",
-        options: ["Speedcubing", "Sub-10", "Fast Solve", "Quick Cube"],
+        question: "What is a common term for when a solve is under 10 seconds?",
+        options: ["Speedcubing", "Sub-10", "minus10", "10less"],
         answer: 1
     }
 ];
@@ -42,10 +42,10 @@ function selectAnswer(selectedOption) {
         points++; // add a point for correct answer
     }
     currentQuestion++; // move to the next question
-    // check if there are more questions
-    if (currentQuestion < questions.length) {
+    
+    if (currentQuestion < questions.length) { // if there are more questions, show next
         showQuestion();
-    } else {
+    } else { // quiz is over, show results
         document.getElementById('questionNumber').innerText = "Quiz Complete!";
         document.getElementById('questionTitle').innerText = "You scored " + points + "/" + questions.length;
         const options = document.querySelectorAll('.card-body .btn');
